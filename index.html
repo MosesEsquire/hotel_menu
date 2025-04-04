@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Simple hotel menu showcasing delicious dishes.">
+    <title>Hotel Menu</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Hotel Delights</h1>
+            <p>Explore our exquisite menu</p>
+        </div>
+    </header>
+
+    <nav class="filter-nav">
+        <div class="container">
+            <button data-category="all" class="active">All</button>
+            <button data-category="starters">Starters</button>
+            <button data-category="mains">Main Courses</button>
+            <button data-category="desserts">Desserts</button>
+        </div>
+    </nav>
+
+    <main>
+        <section class="menu container">
+            <h2>Our Menu</h2>
+            <div class="menu-items">
+                <!-- Starters -->
+                <div class="menu-item" data-category="starters">
+                    <h3>Bruschetta</h3>
+                    <p>Toasted bread with tomatoes, basil, and olive oil.</p>
+                    <span class="price">Ksh 599</span>
+                </div>
+                <div class="menu-item" data-category="starters">
+                    <h3>Garlic Bread</h3>
+                    <p>Freshly baked bread with garlic butter.</p>
+                    <span class="price">Ksh 450</span>
+                </div>
+                <!-- Main Courses -->
+                <div class="menu-item" data-category="mains">
+                    <h3>Grilled Salmon</h3>
+                    <p>Served with lemon herb sauce and roasted vegetables.</p>
+                    <span class="price">Ksh 1,899</span>
+                </div>
+                <div class="menu-item" data-category="mains">
+                    <h3>Chicken Alfredo</h3>
+                    <p>Creamy pasta with grilled chicken and parmesan.</p>
+                    <span class="price">Ksh 1,559</span>
+                </div>
+                <!-- Desserts -->
+                <div class="menu-item" data-category="desserts">
+                    <h3>Chocolate Lava Cake</h3>
+                    <p>Warm cake with a molten chocolate center.</p>
+                    <span class="price">Ksh 699</span>
+                </div>
+                <div class="menu-item" data-category="desserts">
+                    <h3>Cheesecake</h3>
+                    <p>Classic New York-style with a graham cracker crust.</p>
+                    <span class="price">Ksh 599</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Hotel Delights. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

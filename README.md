@@ -32,7 +32,7 @@ A simple, responsive hotel menu website built with HTML, CSS, and JavaScript. Th
 
 
 ## Deployment
-View live at:https://mosesesquire.github.io/hotel_menu/
+View live at: https://mosesesquire.github.io/hotel_menu/
 
 ### **Why This Code is Better**
 - **Simplicity**: Minimal code with clear functionality.

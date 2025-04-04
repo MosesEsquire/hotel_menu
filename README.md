@@ -30,7 +30,9 @@ A simple, responsive hotel menu website built with HTML, CSS, and JavaScript. Th
   - Listens for clicks on filter buttons.
   - Shows/hides menu items based on the selected category and updates the active button state.
 
----
+
+## Deployment
+View live at:https://mosesesquire.github.io/hotel_menu/
 
 ### **Why This Code is Better**
 - **Simplicity**: Minimal code with clear functionality.
